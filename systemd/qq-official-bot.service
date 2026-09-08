@@ -1,0 +1,17 @@
+[Unit]
+Description=Official QQ Python bot
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+# Replace both paths and the user before installing this file.
+User=REPLACE_WITH_LINUX_USER
+WorkingDirectory=/opt/qq-official-bot
+EnvironmentFile=/opt/qq-official-bot/.env
+ExecStart=/opt/qq-official-bot/.venv/bin/python /opt/qq-official-bot/bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

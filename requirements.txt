@@ -1,0 +1,8 @@
+# Tencent's official Python SDK for QQ bots
+qq-botpy>=1.2,<2
+python-dotenv>=1.0,<2
+Pillow>=10,<12
+# Tencent Cloud COS SDK; used only when RizLine COS settings are configured.
+cos-python-sdk-v5>=1.9,<2
+aiohttp>=3.9,<4
+pycryptodome>=3.20,<4

@@ -1,0 +1,11 @@
+services:
+  qq-official-bot:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Keeps encrypted-save exports and generated score cards out of the image.
+      - ./data:/app/data
+      # Keep the encryption key across container recreation, separate from data.
+      - ./.secrets:/app/.secrets

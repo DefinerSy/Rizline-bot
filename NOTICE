@@ -1,0 +1,11 @@
+RizLine B40 behavior reference
+==============================
+
+The AH5+B35 selection behavior in rizline_b40.py was independently
+implemented after reviewing REDDRAGON-HL/rizline_b40_tool:
+https://github.com/REDDRAGON-HL/rizline_b40_tool
+
+That reference project is licensed under Apache License 2.0.  This project
+does not copy its source code, game artwork, fonts, player avatars, or private
+backend.  The local catalog updater can use its publicly exposed cache only as
+an administrator-triggered data source; the cache is not redistributed here.

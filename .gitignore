@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Local credentials and runtime output
+.env
+.env.*
+*.env
+!.env.example
+*.log
+.run/
+.secrets/
+*.key
+*.pem
+*.sqlite*
+*.db
+*.bak
+*.zip
+*.tar
+*.tar.gz
+
+# Locally exported RizLine saves may contain private game data.
+# Exclude ALL runtime data, including menu backups and future data formats.
+data/*
+!data/rizline_saves/
+data/rizline_saves/*
+!data/rizline_saves/.gitkeep
+# Generated catalog data and score cards are runtime-only files.
+data/rizline_song_catalog.json
+data/rizline_exports/
+data/rizline_assets/
+data/rizline_bindings.json
+data/.rizline_bindings.json.lock
+vendor/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+.agents/
+.codex/
+.claude/
