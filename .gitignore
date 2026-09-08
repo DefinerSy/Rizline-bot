@@ -11,6 +11,7 @@ venv/
 *.env
 !.env.example
 *.log
+botpy.log*
 .run/
 .secrets/
 *.key
