@@ -7,6 +7,16 @@
 - 通过 Gateway 长连接运行，不需要为机器人配置公网 HTTPS 回调地址；
 - 凭据只保存在本机 `.env`，不会进入 Git。
 
+## 引用项目与致谢
+
+感谢以下社区项目为本项目提供参考与配套工具：
+
+- [CHCAT1320/RizlineGameSaveData](https://github.com/CHCAT1320/RizlineGameSaveData)：游戏登录、存档拉取及本地存档解密相关工具与接口参考。
+- [CHCAT1320/rizline-assets-get](https://github.com/CHCAT1320/rizline-assets-get)：游戏资源导出工具；本项目兼容其已导出的曲绘、头像、背景等本地素材。
+- [REDDRAGON-HL/rizline_b40_tool](https://github.com/REDDRAGON-HL/rizline_b40_tool)：B40 展示与 AH5+B35 成绩选择行为参考。
+
+各项目的使用方式及许可证边界详见下文[参考项目与边界](#参考项目与边界)。本仓库不分发游戏资源、玩家存档或上游工具的登录配置。
+
 ## 1. 在 QQ 开放平台完成配置
 
 在机器人对应应用的控制台中取得 **AppID** 和 **AppSecret**。机器人显示的 ID 本身不足以让程序登录。
